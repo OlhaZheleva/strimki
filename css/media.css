@@ -588,7 +588,7 @@
               border-radius: 30px;
           }
 }
-@media (min-width: 480px) and (max-width: 767px) { 
+@media (min-width: 480px) and (max-width: 770px) { 
         .mobile__body { 
             padding: 48px 0px 110px 0px;
         }
@@ -601,12 +601,25 @@
             line-height: 31px;
         }
 }
+@media (min-width: 768px)  {
+.mission__item-mobile {
+    display: none;
+}
 
+@media (min-width: 768px) and (max-width: 900px) {
+.mission__items {
+        grid-template-rows: repeat(1, 180px);
+    }
+}
+}
 /* Portrait phones and smaller */
 
 @media (max-width: 480px) {
     .header__mobile .menu__right {
         display: none;
+    }
+    .preview { 
+        border-radius: 20px;
     }
 
     .header__mobile-show {
@@ -641,7 +654,6 @@
         line-height: 24px;
         letter-spacing: 0.02em;
         text-transform: none;
-        margin-bottom: 48px;
         max-width: 400px;
 
     }
@@ -650,6 +662,7 @@
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
+        margin-top: 58px;
     }
  .mobile__bottom {
      flex-direction: column;
@@ -665,10 +678,6 @@
      min-height: 100vh;
      padding: 48px 0px 125px 0px;
  }
- .header {
-     padding: 14px 0px;
- }
-
  .header__logo a {
      font-size: calc(16px + 1 * (100vw / 1920));
  }
@@ -724,6 +733,9 @@
 .footer__social { 
     display: none;
 }
+ .header__logo img {
+     width: 38px;
+ }
 }
 
 /* Iphone 5 */
@@ -788,6 +800,7 @@
         line-height: 13px;
         color: #F4F4F4;
     }
+
 .menu__languages {
     padding: 0px 14px;
 }
@@ -1095,6 +1108,9 @@ font-size: 26px;
 .preview .btn__eye img {
     width: 18px;
 }
+.header__logo img {
+    width: 38px;
+}
 }
 
 
@@ -1116,6 +1132,9 @@ font-size: 26px;
     .header__mobile {
         top: 85px;
     }
+        .header__logo img {
+            width: 38px;
+        }
 }
 
 @media (min-width: 850px) {

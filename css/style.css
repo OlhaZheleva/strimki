@@ -243,6 +243,9 @@ body {
     border: 2px solid #F4F4F4;
         border-radius: 10px;
 }
+.header__logo img {
+    width: 60px;
+}
 /*----------------mobile menu-------------------*/
 .header__mobile {
     position: fixed;
@@ -367,7 +370,7 @@ position: absolute;
 /*----------------preview-------------------*/
 .preview { 
     background-color: #F4F4F4;
-    margin-top: -155px;
+    margin-top: -145px;
     border-radius: 50px;
 }
 .preview__content {
