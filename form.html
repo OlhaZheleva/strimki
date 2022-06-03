@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/form.css" />
+
+    <title>STRIMKI AGENCY</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!------------------------header---------------------------->
+      <header class="header">
+        <div class="header__content __container">
+          <div class="header__logo">
+            <a href=""> Strimki agency </a>
+          </div>
+
+          <div class="header__menu menu">
+            <div class="menu__navigation">
+              <ul class="nav__items nav">
+                <li class="nav__item">
+                  <a href="#wedo" class="nav__link">WE DO</a>
+                </li>
+                <li class="nav__item">
+                  <a href="/blog.html" class="nav__link">blog</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#contact" class="nav__link">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+            <div class="menu__local">
+              <a href="" class="menu__city">kyiv</a>
+              <a href="" class="menu__time">02:20 pm</a>
+            </div>
+            <div class="menu__languages">
+              <a href="" class="menu__lang">en</a>
+            </div>
+          </div>
+          <div class="menu__btn">
+            <a class="header__menu-btn" href="#">
+              <div class="menu__open">
+                <p>menu</p>
+              </div>
+              <div class="menu__close">
+                <p>close</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-------------------------mobile menu ---------------------->
+
+        <div class="header__mobile __container">
+          <div class="mobile__body">
+            <nav class="mobile__nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#wedo" class="nav__link">We do</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#contact" class="nav__link">Cases</a>
+                </li>
+                <li class="nav__item">
+                  <a href="/blog.html" class="nav__link">Blog</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#contact" class="nav__link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="mobile__bottom">
+              <p class="mobile__subtitle">
+                We promote brands and come together audience around the product.
+              </p>
+              <div class="menu__right">
+                <div class="menu__connect">
+                  <a class="connect" href="/form.html">
+                    <img class="connect__icon" src="/img/+.png" alt="" />
+                    <p class="connect__text">Connect</p>
+                  </a>
+                </div>
+                <div class="menu__local">
+                  <a href="" class="menu__city">kyiv</a>
+                  <a href="" class="menu__time">02:20 pm</a>
+                </div>
+              </div>
+              <div class="mobile__connect">
+                <a class="connect" href="/form.html">
+                  <img class="connect__icon" src="/img/+.png" alt="" />
+                </a>
+                <div class="mobile__social social">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/strimki/"
+                    class="social__link"
+                  >
+                    <img src="img/linkedin.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div class="footer__social social">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/strimki/"
+                  class="social__link"
+                >
+                  <img src="img/linkedin.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-------------------------main----------------------------->
+      <main class="main">
+        <div class="main__content __container">
+          <h1 class="main__title title">get started</h1>
+          <form class="form">
+            <fieldset class="form__list">
+              <!---------------------interests-------------------->
+              <h3 class="form__name">Iʼm interested in</h3>
+              <div class="form__checbox">
+                <div class="radio-toolbar">
+                  <input
+                    type="radio"
+                    id="Influencer"
+                    name="radios"
+                    value="Стандатный"
+                  />
+                  <label for="radio1">Influencer Marketing</label>
+
+                  <input
+                    type="radio"
+                    id="Digital"
+                    name="radios"
+                    value="Морозостойкий"
+                  />
+                  <label for="radio2">Digital marketing</label>
+
+                  <input
+                    type="radio"
+                    id="Social"
+                    name="radios"
+                    value="Паростойкий"
+                  />
+                  <label for="radio3">Social media marketing</label>
+
+                  <input
+                    type="radio"
+                    id="Creative"
+                    name="radios"
+                    value="Паростойкий"
+                  />
+                  <label for="radio3">Creative & Strategy</label>
+
+                  <input
+                    type="radio"
+                    id="Video"
+                    name="radios"
+                    value="Паростойкий"
+                  />
+                  <label for="radio3">Video production</label>
+
+                  <input
+                    type="radio"
+                    id="Promotion"
+                    name="radios"
+                    value="Паростойкий"
+                  />
+                  <label for="radio3">Promotion</label>
+                </div>
+              </div>
+
+              <!----------------------------------name-------------------------------->
+
+              <label class="form__name" for="name">Your name</label>
+              <input type="text" name="name" placeholder="Type here..." />
+
+              <!-----------------------------mail---------------------------------->
+
+              <label class="form__name" for="email">Your mail</label>
+              <input
+                type="email"
+                name="email"
+                id=""
+                placeholder="name@example.com"
+              />
+
+              <!----------------------------task------------------------------------->
+
+              <label class="form__name" for="">What is the task?</label>
+              <textarea name="" id="" placeholder="Explain us"></textarea>
+
+              <!------------------------------budget---------------------------->
+
+              <h3 class="form__name">Budget</h3>
+              <div class="form__checbox">
+                <div class="radio-toolbar">
+                  <input
+                    type="radio"
+                    id="2-5k"
+                    name="radios"
+                    value="Стандатный"
+                  />
+                  <label for="radio1">2-5k</label>
+
+                  <input
+                    type="radio"
+                    id="5-10k"
+                    name="radios"
+                    value="Морозостойкий"
+                  />
+                  <label for="radio2">5-10k</label>
+
+                  <input
+                    type="radio"
+                    id="10-20k"
+                    name="radios"
+                    value="Паростойкий"
+                  />
+                  <label for="radio3">10-20k</label>
+
+                  <input
+                    type="radio"
+                    id="20-40k"
+                    name="radios"
+                    value="Паростойкий"
+                  />
+                  <label for="radio3">20-40k</label>
+
+                  <input
+                    type="radio"
+                    id="40k+"
+                    name="radios"
+                    value="Паростойкий"
+                  />
+                  <label for="radio3">40k+</label>
+                </div>
+              </div>
+            </fieldset>
+            <button class="form__button" type="submit">
+              <div class="button">
+                <h4 class="button__name">Send request</h4>
+                <div class="button__icon">
+                  <img src="/img/+.png" alt="" />
+                </div>
+              </div>
+            </button>
+          </form>
+        </div>
+      </main>
+      <!-------------------------footer-------------------------->
+      <footer class="footer footer-black">
+        <div class="footer__content __container">
+          <div class="footer__desck">
+            <div class="menu__navigation">
+              <ul class="nav__items nav">
+                <li class="nav__item">
+                  <a href="#wedo" class="nav__link">We do</a>
+                </li>
+                <li class="nav__item">
+                  <a href="/blog.html" class="nav__link">Cases</a>
+                </li>
+                <li class="nav__item">
+                  <a href="/blog.html" class="nav__link">Blog</a>
+                </li>
+                <li class="nav__item">
+                  <a href="/form.html" class="nav__link" id="contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="menu__right">
+              <div class="menu__connect">
+                <a class="connect" href="/form.html">
+                  <img class="connect__icon" src="/img/+ white.png" alt="" />
+                  <p class="connect__text">Connect</p>
+                </a>
+              </div>
+              <div class="menu__local">
+                <a href="" class="menu__city">kyiv</a>
+                <a href="" class="menu__time">02:20 pm</a>
+              </div>
+            </div>
+            <div class="footer__social social">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/company/strimki/"
+                class="social__link"
+              >
+                <img src="img/linkedin_white.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="footer__mobile">
+            <nav class="mobile__nav">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#wedo" class="nav__link">We do</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#cases" class="nav__link">Cases</a>
+                </li>
+                <li class="nav__item">
+                  <a href="/blog.html" class="nav__link">Blog</a>
+                </li>
+                <li class="nav__item">
+                  <a href="/form.html" class="nav__link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="mobile__connect">
+              <div class="menu__right">
+                <div class="menu__connect">
+                  <a class="connect" href="/form.html">
+                    <img class="connect__icon" src="/img/+ white.png" alt="" />
+                  </a>
+                </div>
+                <div class="menu__local">
+                  <a href="" class="menu__city">kyiv</a>
+                  <a href="" class="menu__time">02:20 pm</a>
+                </div>
+              </div>
+              <div class="mobile__social social">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/company/strimki/"
+                  class="social__link"
+                >
+                  <img src="img/linkedin_white.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__info __container">
+          <p>© Strimki agency 2022</p>
+          <div class="footer__privacy">
+            <a href="">Privacy Policy</a>
+            <a href="">Agreements</a>
+          </div>
+          <p class="footer__made">Made by Ornament</p>
+        </div>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

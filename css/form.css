@@ -1,0 +1,261 @@
+/* -------------footer ------------*/ 
+
+
+.footer-black {
+    background-color: black;
+    padding-top: 260px;
+}
+.nav__link,
+.connect__text,
+.mobile__body .menu__local a {
+    color: #111111;
+}
+.footer-black .nav__link,
+.footer-black .connect__text,
+.footer-black .menu__local a{
+    color: #F4F4F4;
+}
+/* ----------------main  ------------*/ 
+
+
+.main__content { 
+    background: #F4F4F4;
+    border-radius: 50px;
+    margin-top: -150px;
+    margin-bottom: -150px;
+    position: relative;
+    padding: 40px 30px;
+    z-index: 10;
+}
+.form__list { 
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    gap: 80px;
+    margin-top: 80px;
+}
+.form__name {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    font-size: calc(20px + 40 * (100vw / 1920));
+}
+
+.radio-toolbar { 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.radio-toolbar input[type="radio"] {
+    display: none;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+    padding: 6px 26px;
+    cursor: pointer;
+    border: 2px solid #111111;
+    border-radius: 20px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0px 26px 26px 0px;
+}
+
+.radio-toolbar label:hover  {
+    background: #111111;
+    color: #F4F4F4;
+} 
+.radio-toolbar input[type="radio"]:checked+label {
+    background: #111111;
+    color: #F4F4F4;
+}
+.form input, 
+.form textarea {
+    background: none;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #CBCBCB;
+    line-height: 72px;
+    font-size: calc(20px + 40 * (100vw / 1920));
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #CBCBCB;
+    line-height: 72px;
+    font-size: calc(20px + 40 * (100vw / 1920));
+}
+.form__button { 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* ---------------- media ----------------*/ 
+@media (min-width: 1440px) and (max-width: 1919px) {
+.form__name{
+    font-size: calc(20px + 32 * (100vw / 1920));
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1439px){
+.form__name {
+    font-size: calc(20px + 32 * (100vw / 1920));
+}
+}
+@media (min-width: 1025px) and (max-width: 1199px){
+    .main__content { 
+        margin-top: -150px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1025px) {
+    .main__content {
+    border-radius: 20px;
+    margin-top: -30px;
+    padding: 0px 30px;
+}
+.form__name,
+.form input,
+.form textarea {
+    font-size: calc(20px + 26 * (100vw / 1920));
+}
+.radio-toolbar label {
+    font-size: calc(16px + 16 * (100vw / 1920));
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main__content {
+    border-radius: 30px;
+    margin-top: -30px;
+    padding: 0px 10px 10px 10px;
+}
+.form__name,
+.form input,
+.form textarea {
+    font-size: 26.0625px;
+    line-height: 31px;
+}
+.button__name {
+    font-size: 43.4375px;
+    line-height: 52px;
+}
+.radio-toolbar label {
+font-size: 16.5063px;
+    line-height: 20px;
+    padding: 3px 10px;
+    border-radius: 9px;
+    margin: 0px 10px 10px 0px;
+    border: 1px solid #111111;
+}
+.form .button__icon img { 
+    width: 28px ;
+}
+.form__list {
+    gap: 43px;
+    margin-top: 43px;
+}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+.main__content {
+        border-radius: 30px;
+    }
+
+    .form__list {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 48px;
+    }
+
+    .main__content {
+        border-radius: 20px;
+    }
+
+    .main__content {
+        margin-top: -174px;
+        padding: 10px;
+    }
+
+    .radio-toolbar label {
+        font-size: 16px;
+        line-height: 19px;
+        border: 1px solid #111111;
+        border-radius: 10px;
+        margin: 0px 12px 12px 0px;
+    }
+
+    .form__name,
+    .form input,
+    .form textarea {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .form .button__name {
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .form .button__icon img {
+        width: 32px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+.main__content { 
+    border-radius: 30px;
+}
+.form__list {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 48px;
+}
+.main__content {
+    border-radius: 20px;
+}
+
+.main__content {
+    margin-top: -174px;
+    padding: 10px;
+}
+.radio-toolbar label {
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #111111;
+    border-radius: 10px;
+    margin: 0px 12px 12px 0px;
+}
+.form__name,
+.form input,
+.form textarea {
+font-size: 20px;
+    line-height: 24px;
+}
+.form .button__name {
+font-size: 26px;
+    line-height: 31px;
+}
+.form .button__icon img { 
+    width: 32px;
+}
+}
+
+@media (max-width: 320px) {
+.main__content { 
+    border-radius: 20px;
+}
+
+}
